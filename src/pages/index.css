@@ -1,0 +1,46 @@
+body {
+  height: 90%;
+  overflow: hidden;
+}
+#root {
+  height: 80vh;
+}
+
+.chart-wrap {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+.chart-wrap .title {
+  font-size: 2rem;
+}
+.comment-list {
+  height: 60vh;
+  overflow: hidden;
+}
+.comment-list:hover {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.dateTime {
+  cursor: pointer;
+}
+
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+  width: 5px;/* 纵向滚动条*/
+  height: 5px;/* 横向滚动条 */
+  background-color: #fff;
+}
+
+/*定义滚动条轨道 内阴影*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+  background-color: #fff;
+}
+
+/*定义滑块 内阴影*/
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+  background-color: #d5d5d5;
+}
